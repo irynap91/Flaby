@@ -170,6 +170,7 @@ color: #494949;
 .features {
   background-image: url(img/bg_features.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 0;
   padding-bottom: 60px;
 
