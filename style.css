@@ -1,0 +1,621 @@
+/* Specification */
+
+@font-face {
+  font-family: "MuseoSlab";
+  src: url("fonts/museo_slab_500.otf");
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+input {
+  outline: none;
+}
+.btn {
+  position: relative;
+  transition: all ease 0.3s;
+}
+.btn:hover {
+  color: #faf83a;
+}
+
+.btn:active {
+  box-shadow: 0 3px 0 grey;
+  top: 3px;
+}
+
+/* Header*/
+.header {
+  background: url(img/bg.jpg) no-repeat;
+  background-size: 100%;
+  color: white;
+  padding-bottom: 200px;
+  padding-top: 30px;
+}
+.header li {
+  display: block;
+}
+
+.menu {
+  margin-top: 17px;
+  margin-bottom: 40px;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  padding-right: 30px;
+}
+.menu a:hover {
+  color: #faf83a;
+}
+
+.headerText {
+  margin-top:25%;
+  font-family: "MuseoSlab", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.headerText h1{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.headerText p {
+  margin-top: 20px;
+}
+
+.header_btn {
+  background-color: #4ca3e6;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px;
+  outline: 0 !important;
+}
+
+.headerButtons {
+  margin-top: 45px;
+}
+.learn_btn {
+  background-color: #4ca3e6;
+  border: none;
+  color: white;
+  width: 235px;
+  height: 70px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 10px;
+  outline: 0 !important;
+}
+.google_btn {
+  background-color: white;
+  border: none;
+  color: black;
+  width: 235px;
+  height: 70px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 10px;
+  outline: 0 !important;
+}
+.google_btn img {
+  margin-right: 10px;
+}
+/* Section services*/
+section {
+  padding-top: 90px;
+  padding-bottom: 160px;
+}
+
+.section_name {
+  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+}
+.section_name h6 {
+  color: #7c7c7c;
+  font-size: 18px;
+}
+.section_name h3 {
+  text-transform: uppercase;
+  color: #494949;
+  font-size: 24px;
+}
+
+.small_line {
+  width: 30px;
+  height: 2px;
+}
+
+.service {
+  margin-top: 90px;
+  text-align: center;
+}
+
+#photo_icon {
+  padding-bottom: 24px;
+}
+#artist_icon {
+  padding-bottom: 2px;
+}
+
+.service h5 {
+margin-top: 40px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #494949;
+}
+.service p {
+  font-family: "RaleWay", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+/* Section Features */
+.features {
+  background-image: url(img/bg_features.jpg);
+  background-size: auto;
+  padding: 0;
+  padding-bottom: 60px;
+
+}
+.section_text {
+  padding-top: 140px;
+}
+.section_text h5 {
+  font-family: "RaleWay", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #b3b4b4;
+}
+.section_text h2 {
+  font-family: "RaleWay", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #494949;
+  margin-top: 20px;
+}
+.section_text h6 {
+  font-family: "RaleWay", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7c7c7c;
+  margin-top: 35px;
+}
+.section_text ul {
+  font-family: "RaleWay", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7c7c;
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.features li {
+margin-top: 25px;
+display:block;
+background: url(img/marker.png) no-repeat;
+padding-left: 30px;
+}
+.features img {
+  margin-top: 40px;
+}
+
+/* Section Other Services */
+.other_services {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.other_services li {
+  display: block;
+  margin-top: 90px;
+}
+.idea {
+  background: url(img/idea.png) no-repeat;
+}
+.coding{
+  background: url(img/coding.png) no-repeat;
+  padding-left: 10px;
+}
+.game {
+  background: url(img/game.png) no-repeat;
+  padding-left: 10px;
+}
+.design {
+  background: url(img/design.png) no-repeat;
+}
+.shopping{
+  background: url(img/shopping.png) no-repeat;
+  padding-left: 10px;
+}
+.bonus {
+  background: url(img/bonus.png) no-repeat;
+  padding-left: 10px;
+}
+
+.other_service_title {
+  padding-left: 60px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.other_service_text {
+  padding-left: 60px;
+}
+.left {
+  padding-left: 70px;
+}
+
+/* Section Customer Feedback */
+.feedback {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  background-image: url(img/bg_feedback.jpg);
+}
+.feedback_item {
+  padding-left: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+.feedback_card_bg {
+  position: absolute;
+  z-index: 1;
+
+}
+.feedback_content {
+  position: relative;
+  z-index: 10;
+  width:70%;
+  padding-top: 130px;
+  padding-bottom: 80px;
+  margin-left: 120px;
+}
+.client_name {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.client_position {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+/* Section Download */
+.download {
+  padding-top: 150px;
+  padding-bottom: 130px;
+}
+.section_text p {
+  font-family: "RaleWay", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7c7c;
+  margin-top: 30px;
+}
+#text_download {
+padding-top: 20px;
+}
+
+/* Section Pricing Plan */
+.pricing_plan {
+  padding-top: 60px;
+  padding-bottom: 110px;
+  background-image: url(img/bg_pricing.jpg);
+}
+.plans img {
+  margin-top: 45px;
+}
+.price_option {
+  background-image: url("img/price_bg.png");
+  background-repeat: no-repeat;
+  height: 610px;
+  width: 340px;
+  text-align: center;
+  margin-top: 100px;
+}
+.plan_title {
+  padding-top: 55px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.plan_price {
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  background: linear-gradient(to bottom left, #34b7ed, #66eff8);
+  -webkit-background-clip: text;
+ color: transparent;
+}
+.sup {
+  font-size: 30px;
+  vertical-align: text-top;
+  font-weight: 700;
+}
+.sub {
+  font-size: 30px;
+  vertical-align: text-bottom;
+  font-weight: 700;
+}
+.plan_text_dark {
+  color: #7c7c7c;
+  margin-bottom: 5px;
+}
+.plan_text_light {
+  color: #d8d8d8;
+  margin-bottom: 5px;
+}
+.plan_descr {
+  padding-top: 25px;
+}
+.plan_btn {
+  background-color: #66d4f4;
+  border: none;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  color: white;
+  width: 150px;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 120px 120px 120px 120px;
+  outline: 0 !important;
+}
+
+/* Section Subscribe */
+.subscribe {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.field {
+  border-radius: 120px 120px 120px 120px;
+  width: 370px;
+  height: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.form {
+  margin-top: 65px;
+}
+.subscribe_btn {
+  background-color: #66d4f4;
+  border: none;
+  color: white;
+  width: 370px;
+  height: 70px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 120px 120px 120px 120px;
+  outline: 0 !important;
+}
+
+/* Footer */
+.footer {
+  padding-bottom: 70px;
+}
+
+.footer_content {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.flaby_text {
+  padding-top: 25px;
+  color: #8d8d8d;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.social_media {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.social_media_icon {
+  margin-right: 10px;
+}
+.footer_links {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+.footer_links li {
+  display: block;
+}
+.footer_links a {
+  decoration: none;
+  color: #8d8d8d;
+ font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer_bottomline {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.footer_bottomline li {
+  display: block;
+  padding-right: 15px;
+  margin-left: 10px;
+  color: #8d8d8d;
+  border-right: 1px solid #8d8d8d;
+}
+.mobile_nav {
+  display: none;
+}
+
+@media screen and (max-width: 1199px) {
+.headerText h1 {
+  font-size: 30px;
+}
+.headerText p {
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.menu a {
+  font-size: 14px;
+}
+.logo {
+  padding-top: 15px;
+}
+.headerText {
+  margin-top: 15%;
+}
+.headerText h1 {
+  font-size: 24px;
+}
+.headerText p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.learn_btn, .google_btn {
+  width: 100%;
+  font-size: 16px;
+}
+.price_option {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+}
+.features {
+  background-color: #fafbfb;
+  background-image: url();
+}
+}
+
+@media screen and (max-width: 768px) {
+.mobile_nav {
+  display: inline;
+}
+.menu, .nav_bar, .button{
+display: none;
+}
+.mobile_nav_btn {
+  background-color: #4ca3e6;
+  border: none;
+  color: white;
+  width: 40px;
+  border-radius: 10px 10px 10px 10px;
+  outline: 0 !important;
+}
+.logo {
+  padding-top: 5%;
+}
+.btn {
+  height: 40px;
+}
+.headerButtons {
+  margin-top: 10px;
+  padding-left: 0;
+  align-content: center;
+}
+.headerText {
+  margin-top: 5%;
+}
+.footer_nav {
+  display: none;
+}
+.footer, .footer_content {
+  padding-bottom: 0;
+}
+.download_bg {
+  display: none;
+}
+.field, .subscribe_btn {
+  width: 250px;
+}
+.pricing_plan {
+  background-image: url();
+  background-color: #f4fbfc;
+}
+.feedback_content {
+  padding-top: 70px;
+  margin-left: 80px;
+}
+.feedback_content p {
+  font-size: 12px;
+}
+}
+@media screen and (max-width: 586px) {
+  .headerText p {
+    display: none;
+  }
+  .header {
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feedback_content p {
+    font-size: 10px;
+  }
+  .feedback_content {
+    margin-left: 60px;
+    padding-top: 50px;
+  }
+  .client_position {
+    margin-bottom: 0;
+  }
+  .google_pic {
+  display: none;
+  }
+  .header_btn {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .headerText {
+    margin: 0;
+  }
+  .headerText h1 {
+    font-size: 20px;
+  }
+  .learn_btn, .google_btn {
+    font-size: 10px;
+    height: 30px;
+  }
+  .feedback_content p {
+    font-size: 8px;
+  }
+  .feedback_content {
+    margin-left: 45px;
+    padding-top: 40px;
+  }
+  .plan_price {
+    font-size: 50px;
+  }
+  .field, .subscribe_btn {
+    width: 200px;
+  }
+  .footer_bottomline ul{
+    padding: 0;
+  }
+}
