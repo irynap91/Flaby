@@ -169,7 +169,7 @@ color: #494949;
 /* Section Features */
 .features {
   background-image: url(img/bg_features.jpg);
-  background-size: auto;
+  background-size: cover;
   padding: 0;
   padding-bottom: 60px;
 
