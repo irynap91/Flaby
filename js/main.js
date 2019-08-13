@@ -27,26 +27,3 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
-window.onload= function() {
-
-var selectedOption = document.getElementsByClassName("price_option");
-console.log(selectedOption);
-
-for (j=0; j<3; j++) {
-
-        selectedOption[j].onmouseover= function () {
-          selectedOption[j].style.height=640+"px";
-          selectedOption[j].style.marginTop=60+"px";
-        }
-        for (i=0; i<=j; i++) {
-        selectedOption[i].onmouseout= function () {
-          selectedOption[i].style.height=610+"px";
-          selectedOption[i].style.marginTop=100+"px";
-        }
-        break;
-// continue;
-      }
-      // continue;
-    }
-}
